@@ -40,8 +40,8 @@ lib/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/flutter-login-screen.git
-cd flutter-login-screen
+git clone https://github.com/farhan-shahariar/login.git
+cd login
 ```
 
 ### 2️⃣ Install dependencies
