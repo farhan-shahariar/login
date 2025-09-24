@@ -1,16 +1,67 @@
-# login
+# 🔐 Flutter Login Screen
 
-A new Flutter project.
+A Flutter login screen project with **email & password validation**, **password visibility toggle**, **custom theming**, and **SnackBar notifications**.  
+This project is designed as a starter template for learning **form handling** and **UI customization** in Flutter.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
+- 📧 **Email Validation**  
+  - Ensures proper email format  
+- 🔑 **Password Validation**  
+  - Minimum 6 characters  
+  - At least one uppercase letter  
+  - At least one number  
+- 👁️ **Show/Hide Password Toggle**  
+- 🎨 **Custom Theming**  
+  - Styled buttons, text, and input fields  
+- 📝 **Form with GlobalKey** for validation handling  
+- 🍭 **SnackBar Notifications** for success & error messages  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📂 Project Structure
+lib/
+├── main.dart # Entry point
+├── app.dart # MyApp with MaterialApp & ThemeData
+├── screens/
+│ └── login_screen.dart # Login screen UI & validation
+├── utils/
+│ ├── app_constants.dart # Email RegExp validation
+│ └── show_snack_bar.dart # Snackbar utility function
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Tech Stack
+- [Flutter](https://flutter.dev/)  
+- Dart  
+- Material Design Widgets  
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/flutter-login-screen.git
+cd flutter-login-screen
+
+2️⃣ Install dependencies
+flutter pub get
+
+3️⃣ Run the app
+flutter run
+
+---
+
+## 🎯 Purpose
+
+This project is perfect for beginners who want to learn:
+
+How to build forms in Flutter
+
+How to validate user input
+
+How to apply Material theming
+
+How to provide user feedback with SnackBars
