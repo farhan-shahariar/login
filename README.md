@@ -30,6 +30,9 @@ lib/
 │ ├── app_constants.dart # Email RegExp validation
 │ └── show_snack_bar.dart # Snackbar utility function
 
+yaml
+Copy code
+
 ---
 
 ## 🛠️ Tech Stack
