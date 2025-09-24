@@ -46,10 +46,10 @@ lib/
 git clone https://github.com/your-username/flutter-login-screen.git
 cd flutter-login-screen
 
-2️⃣ Install dependencies
+### 2️⃣ Install dependencies
 flutter pub get
 
-3️⃣ Run the app
+### 3️⃣ Run the app
 flutter run
 
 ---
